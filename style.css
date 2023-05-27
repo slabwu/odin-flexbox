@@ -212,6 +212,11 @@ header a {
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    font-weight: lighter;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
