@@ -47,6 +47,7 @@ header img {
     color: #F9FAF8;
     padding-top: 70px;
     padding-bottom: 100px;
+    display: flex;
 }
 
 .hero-title {
@@ -60,6 +61,7 @@ header img {
     color: #E5E7EB;
     font-weight: light;
     padding-right: 30px;
+    flex: auto;
 }
 
 .hero button {
@@ -75,11 +77,16 @@ header img {
     flex: 1;
 }
 
-.hero img {
-    height: 250px;
-    object-fit: cover;
+.hero .hero-image {
+    display: flex;
+    flex auto;
+    flex: 1;
 }
 
+.hero img {
+    aspect-ratio: 520/260;
+    object-fit: cover;
+}
 
 
 
