@@ -15,6 +15,7 @@ header {
     color: #F9FAF8;
     align-items: center;
     gap: 20px;
+    text-align: center;
 }
 
 header a {
@@ -34,24 +35,40 @@ header a {
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 70px 200px 100px;
 }
 
 .hero-title {
     font-size: 48px;
     font-weight: bolder;
+    padding-right: 30px;
 }
 
 .hero-text p {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: light;
+    padding-right: 30px;
 }
 
 .hero button {
     border: none;
     background-color: #3882F6;
     color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 30px;
 }
+
+.hero .hero-text, .hero img {
+    flex: 1;
+}
+
+.hero img {
+    height: 250px;
+    object-fit: cover;
+}
+
 
 
 /*SECTION 1*/
