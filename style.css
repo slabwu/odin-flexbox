@@ -5,6 +5,7 @@ body {
 
 header, .hero, .section-1, .section-2, .section-3, footer, .image-container, .call-to-action {
     display: flex;
+    padding: 0 150px;
 }
 
 
@@ -62,7 +63,7 @@ header a {
     color:#1F2937;
 }
 
-.image {
+.image img {
     border: 1px solid #3882F6;
 }
 
