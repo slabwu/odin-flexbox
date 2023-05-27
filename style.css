@@ -11,9 +11,24 @@ header {
     color: #F9FAF8;
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .section-1 {
@@ -21,9 +36,26 @@ header {
     color: #1F2937;
 }
 
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
 .section-2 {
     background-color: #E5E7EB;
     color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.quote-atr {
+    font-weight: bold;
 }
 
 .section-3 {
