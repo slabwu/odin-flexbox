@@ -5,7 +5,7 @@ body {
 
 header, .hero, .section-1, .section-2, .section-3, footer, .image-container, .call-to-action {
     display: flex;
-    padding: 0 150px;
+    padding: 0 200px;
 }
 
 
@@ -13,17 +13,20 @@ header, .hero, .section-1, .section-2, .section-3, footer, .image-container, .ca
 header {
     background-color: #1F2937;
     color: #F9FAF8;
+    align-items: center;
+    gap: 20px;
 }
 
 header a {
     text-decoration: none;
     color: #F9FAF8;
-    font-weight: light;
+    font-weight: lighter;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
 }
 
 
