@@ -79,7 +79,7 @@ header img {
 
 .hero .hero-image {
     display: flex;
-    flex auto;
+    flex: auto;
     flex: 1;
 }
 
