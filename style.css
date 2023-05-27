@@ -46,8 +46,9 @@ header img {
     background-color: #1F2937;
     color: #F9FAF8;
     padding-top: 70px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .hero-title {
@@ -71,6 +72,7 @@ header img {
     font-weight: bold;
     border-radius: 8px;
     padding: 10px 30px;
+    margin-bottom: 20px;
 }
 
 .hero .hero-text, .hero img {
@@ -80,12 +82,14 @@ header img {
 .hero .hero-image {
     display: flex;
     flex: auto;
-    flex: 1;
+
 }
 
 .hero img {
     aspect-ratio: 520/260;
     object-fit: cover;
+    min-width: 275px;
+    margin-bottom: 20px;
 }
 
 
