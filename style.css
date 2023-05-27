@@ -6,6 +6,40 @@ header, .hero, .section-1, .section-2, .section-3, footer, .image-container, .ca
     display: flex;
 }
 
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.section-1 {
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+.section-2 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.section-3 {
+    background-color: #F9FAF8;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
 /* Debug */
 img {
     width: 50px;
