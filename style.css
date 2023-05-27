@@ -114,14 +114,16 @@ header img {
 .image-container {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
-    padding: 0 100px;
-    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    gap: 40px;
 }
 
 .image {
     flex: 1 1 200px;
     display: flex;
+    flex-grow: 0;
     flex-direction: column;
     text-align: center;
     align-items: center;
