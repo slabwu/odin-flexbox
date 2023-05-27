@@ -9,6 +9,9 @@ header, .hero, .section-1, .section-2, .section-3, footer, .image-container, .ca
 }
 
 
+
+
+
 /*HEADER*/
 header {
     background-color: #1F2937;
@@ -31,11 +34,15 @@ header a {
 }
 
 
+
+
+
 /*HERO*/
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 70px 200px 100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
 }
 
 .hero-title {
@@ -71,26 +78,59 @@ header a {
 
 
 
+
+
+
 /*SECTION 1*/
 .section-1 {
     background-color: #F9FAF8;
     color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .information {
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
+    flex: 1;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 100px;
+    gap: 50px;
+}
+
+.image {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .image img {
-    border: 1px solid #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .image p {
     color: #1F2937;
     font-weight: lighter;
 }
+
+
+
 
 
 /*SECTION 2*/
@@ -111,6 +151,9 @@ header a {
 }
 
 
+
+
+
 /*SECTION 3*/
 .section-3 {
     background-color: #F9FAF8;
@@ -128,11 +171,17 @@ header a {
 }
 
 
+
+
+
 /*FOOTER*/
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
+
+
 
 
 
