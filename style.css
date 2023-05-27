@@ -196,8 +196,13 @@ header img {
     flex-wrap: wrap;
 }
 
+.call-to-action img {
+margin-right: 20px;
+}
+
 .call-to-action-text {
     flex: 4 1 auto;
+    margin-right: 20px;
 }
 
 .call-to-action-text h3 {
