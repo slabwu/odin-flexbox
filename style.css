@@ -1,14 +1,23 @@
 body {
     font-family: Roboto, san-serif;
+    margin: 0;
 }
 
 header, .hero, .section-1, .section-2, .section-3, footer, .image-container, .call-to-action {
     display: flex;
 }
 
+
+/*HEADER*/
 header {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+header a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-weight: light;
 }
 
 .header-logo {
@@ -16,6 +25,8 @@ header {
     color: #F9FAF8;
 }
 
+
+/*HERO*/
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -29,8 +40,17 @@ header {
 .hero-text p {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: light;
 }
 
+.hero button {
+    border: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+
+/*SECTION 1*/
 .section-1 {
     background-color: #F9FAF8;
     color: #1F2937;
@@ -42,6 +62,17 @@ header {
     color:#1F2937;
 }
 
+.image {
+    border: 1px solid #3882F6;
+}
+
+.image p {
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+
+/*SECTION 2*/
 .section-2 {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -58,6 +89,8 @@ header {
     font-weight: bold;
 }
 
+
+/*SECTION 3*/
 .section-3 {
     background-color: #F9FAF8;
 }
@@ -67,10 +100,20 @@ header {
     color: #F9FAF8;
 }
 
+.call-to-action button {
+    border: solid 2px #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+
+/*FOOTER*/
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
+
 
 /* Debug */
 img {
